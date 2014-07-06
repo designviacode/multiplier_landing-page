@@ -1,0 +1,190 @@
+*,*:before,*:after{
+    box-sizing: border-box;
+}
+}body{
+    background-color: #ddd;
+/*    font-family: Source Sans Pro;*/
+    font-family: lato;
+/*    font-family: Open Sans;*/
+    font-weight: 300;
+    font-size: 22px;
+    margin:0;
+    padding: 0;
+    border: 0;
+    height:100%;
+    width:100%;
+    -webkit-font-smoothing:antialiased;
+}
+p{
+    margin: 0;
+    color:white;
+    font-size:30px;
+/*    font-family: Source Sans Pro;*/
+    font-weight: 300;
+}
+.slide{
+/*    height:550px;*/
+    background-color: rgba(0,0,0,0.5);
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.slide-1{
+    background-image: url(download.png);
+    position: relative;
+    height:550px;
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+/*        position: relative;*/
+    z-index: 0;
+}
+div.logo{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 40px;
+    color:#39cb58;
+    width: 100%;
+    display: inline-block;
+    position: absolute;
+    top:15px;
+    left:0;
+    right: 0;
+    z-index: 2;
+}
+span.logo-part{
+    color:#ddd;
+    background-color: #39cb58;
+    padding: 5px 5px .5px 17px;
+    border-radius:100%;
+    margin-bottom:15px;
+    font-family: "Montez";
+}
+span.sub-head-logo{
+/*    font-weight: 600;*/
+/*    color:#39cb58;*/
+}
+.main{
+    position: absolute;
+    top:100px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+.main p{
+    font-family: lato;
+    font-size: 32px;
+}
+.input{
+    border:0;
+    border-radius:3px;
+    font-family:Source sans pro;
+    font-weight: 300; 
+    outline:0;
+/*    display: block;*/
+}
+div.invite{
+    position: absolute;
+/*    width:150px;*/
+    display: block;
+    top:250px;
+    left:0;
+    right:0;
+    margin: 0 auto;
+    text-align: center;
+    border-radius:5px;
+}
+.mail{
+/*    display: block;*/
+    font-size:25px;
+    padding:10px;
+    -webkit-box-shadow: inset 0 0 6px 0 rgba(0,0,0,0.7);
+    box-shadow: inset 0 0 6px 0 rgba(0,0,0,0.7);
+}
+.mail:focus{
+    /*    -webkit-box-shadow:inset 0 0 10px 2px red;*/
+    /*            box-shadow:inset 0 0 10px 2px red;*/
+}
+.invite-btn{
+    color:white;
+    background-color: #39cb58;
+    padding:10px 25px;
+    font-size:25px;
+    -webkit-transition:background-color 0.3s ease;
+}
+.invite-btn:hover{
+    background-color:#39bb58;    
+    border-bottom:2px solid rgba(255,255,255,0.1);
+}
+p.current{
+    margin: 20px 0;
+    font-family: lato;
+    font-weight: 300;
+    font-size: 23px;
+}
+/*.register{
+    position: absolute;
+    width: 40%;
+    margin: 0 auto;
+    margin: 0 35% 5% 0;
+    display: block;
+    top:250px;
+    left:0;
+    right:0;
+    margin: 0 auto;
+}*/
+.slide-2{
+    position: relative;
+    height:0%;
+    padding: 15px;
+    right: 0;    
+/*    background-color:#f5f5f5;*/
+    background-color: rgba(0,0,0,0.9);
+}
+.slide-2 p{
+/*    position: absolute;*/
+/*    color:#222;*/
+    padding:15px 0;
+    line-height: 1.6em;
+/*    word-break: break-all;*/
+    word-wrap: break-word;
+/*    font-family: Open Sans;*/
+    font-family: lato;
+    font-weight: 300;
+    font-size:20px;
+    width:95%;
+    display: block;
+    top:550px;
+    margin: 0 auto;
+}
+.slide-2 p span{
+    font-size:25px;
+    font-family: lato;
+    font-weight:600;
+    color:#39cb58;
+}
+.footer{
+    margin: 0;
+/*    height:100px;*/
+    padding: 15px;
+    color:white;
+    background-color: #111;
+}
+.copyright{
+    color:white;
+    font-size: 18px;
+    font-family: lato;
+    font-weight: 300;
+    text-align: center;
+}
+
+span.company{
+    color:#39cb58;
+}
+
+
+
+
+
+

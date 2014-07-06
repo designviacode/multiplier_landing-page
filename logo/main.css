@@ -1,0 +1,27 @@
+body{
+    background-color: #ddd;
+    font-family: lato;
+    font-size: 22px;
+}
+.logo{
+    margin: 20px auto;
+    text-align: center;
+    font-size: 40px;
+    color:#39CB85;
+}
+span{
+    color:#ddd;
+    background-color: #39cb85;
+    padding: 5px 5px .5px 17px;
+    border-radius:100%;
+    margin-right: -9px;
+    margin-bottom:15px;
+    font-family: "Montez";
+}
+.black{    
+    color: black;
+}
+.black span{
+    color: #ddd;
+    background-color: black;
+}

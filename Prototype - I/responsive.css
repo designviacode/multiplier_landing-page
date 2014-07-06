@@ -1,0 +1,119 @@
+@media screen and (min-width:170px){
+    .card{
+        margin:0 auto;
+        margin-bottom:1em;
+        height:740px;
+        width:95%;
+    }
+    .info{
+        word-break: break-all;
+    }
+    .heading{
+        word-break: normal;
+    }
+}
+@media screen and (min-width:200px){
+    .card{
+        margin:0 auto;
+        margin-bottom:1em;
+        height:740px;
+        width:95%;
+    }
+    .info{
+        word-break: break-all;
+    }
+    .heading{
+        word-break: normal;
+    }
+}
+@media screen and (min-width:270px){
+    .card{
+        margin:0 auto;
+        margin-bottom:1em;
+        height:480px;
+        width:95%;
+    }
+    .info{
+        word-break: break-all;
+    }
+    .heading{
+        word-break: normal;
+    }
+}
+@media screen and (min-width:370px){
+    .card{
+        margin:0 auto;
+        margin-bottom:1em;
+/*        height:555px;*/
+        line-height: 1.6em;
+        width:95%;
+    }
+    .info{
+        word-break: break-all;
+    }
+    .heading{
+        word-break: normal;
+    }
+}
+@media screen and (min-width:660px){
+    .card{
+        margin:0 auto;
+        margin-bottom:1em;
+        height:420px;
+        width:95%;
+    }
+    .info{
+        word-break: break-all;
+    }
+    .heading{
+        word-break: normal;
+    }
+}
+@media screen and (min-width:760px){
+    .card{
+        margin:0 auto;
+        margin-bottom:1em;
+        margin-left:4px;
+        margin-right:4px;
+        height:400px;
+        width:95%;
+        float:left;
+    }
+    .info{
+        word-break: break-all;
+    }
+    .heading{
+        word-break: normal;
+    }
+}
+@media screen and (min-width:860px){
+    .card{
+        margin:0 auto;
+        margin-bottom:1em;
+        height:400px;
+        width:95%;
+    }
+    .info{
+        word-break: break-all;
+    }
+    .heading{
+        word-break: normal;
+    }
+}
+@media screen and (min-width:960px){
+    .card{
+        margin:0 auto;
+        margin-bottom:1em;
+        margin-left:4.5px;
+        margin-right:4.5px;
+        height:590px;
+        width:31.333%;
+        float:left;
+    }
+    .info{
+        word-break: break-all;
+    }
+    .heading{
+        word-break: normal;
+    }
+}

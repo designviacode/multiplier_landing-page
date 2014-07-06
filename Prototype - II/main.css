@@ -1,0 +1,89 @@
+html{
+    width:100%;
+}
+*,*:before,*:after{
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+body{
+    background: #1c1c1c;
+    font-family: lato, Helvetica;
+}
+.btn-primary{
+    background-color:rgba(0,0,0,0);
+    border:2px solid white;
+    -webkit-transition:0.4s ease;
+            transition:0.4s ease;
+}
+.btn-primary:hover{
+    border:2px solid white;
+    background-color: white;
+    color:#39CB85;
+}
+.btn-secondary{
+    border:2px solid #39CB85;
+    color:#39CB85;
+    margin-bottom: 50px;
+}
+.btn-secondary:hover{
+    border:2px solid #39CB85;
+    background-color:#39CB85;
+    color:white;
+}
+.navbar-inverse{
+    background-color: #1c1c1c;
+}
+.rows{
+    max-width: 90%;
+    width:100%;
+    margin: 0 auto;
+}
+.card{
+    background-color:#eee;
+    height: 600px;
+    display: block;
+/*    height: auto;*/
+    width:90%;
+/*    padding:8px;*/
+    float:left;
+    position: relative;
+    margin:10px;
+    border-radius: 5px; 
+    font-size:16px;
+    font-family:"Open Sans";
+    line-height: 28px;
+    cursor: pointer;
+/*    -webkit-transition:0.4s ease;*/
+/*            transition:0.4s ease;*/
+}
+.card:hover .circle{
+    background-color:#aaa; 
+}
+.info{
+    position: absolute;
+/*    margin-top: -20px;*/
+    text-align: center;
+    padding: 20px;
+    top:130px;
+}
+.info .heading{
+    text-align: center;
+}
+.circle{
+    position: absolute;
+    top:0;
+    left:0;
+    right: 0;
+    padding:25px;
+    background-color: #ddd;
+/*    height: 80%;*/
+    text-align: center;
+    font-size: 80px;
+    width:50%;
+    margin: 15px auto;
+    border-radius: 100px;
+    border:5px solid #ccc; 
+        -webkit-transition:0.5s ease;
+                transition:0.5s ease;
+}
